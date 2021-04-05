@@ -1,9 +1,7 @@
 /** Server startup for Message.ly. */
 
-
 const app = require("./app");
 
-
 app.listen(3000, function () {
-  console.log("Listening on 3000");
+  console.log("Server running: Listening on port 3000");
 });
